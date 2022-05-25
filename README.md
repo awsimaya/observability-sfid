@@ -153,7 +153,7 @@ Execute the following command to see how this is setup
 kubectl describe sa/aws-otel-collector -n aws-otel-eks
 ```
 
-![OTELCollector](otelcollector.jpg)
+![OTELCollector](otelcollector.png)
 
 
 
