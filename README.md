@@ -162,13 +162,15 @@ kubectl describe sa/aws-otel-collector -n aws-otel-eks
 Open the file `otel-collector-prometheus-complete.yaml` and do the following
 
 
-1. On line **301**, replace the value of the `endpoint` attribute to the Amazon Managed Prometheus workspace URL. You can get the URL from the `Endpoint - remote write URL` section in the `Summary` page.
+* On line **301**, replace the value of the `endpoint` attribute to the Amazon Managed Prometheus workspace URL. You can get the URL from the `Endpoint - remote write URL` section in the `Summary` page.
 
 ![AMP Workspace](ampworkspace.jpg)
 
-1. On line **303**, set the value of `region` attribute to `us-east-1`
+* On line **303**, set the value of `region` attribute to `us-east-1`
 
-1. Save and close the file.
+* Save and close the file.
+
+Execute the following command
 
 ```
 kubectl apply -f ./otel-collector-prometheus-complete.yaml
