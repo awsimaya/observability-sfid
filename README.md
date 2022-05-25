@@ -87,7 +87,7 @@ You should also see the log groups that you deleted earlier getting recreated as
 helm uninstall adot-release
 ```
 
-**End of Container Insights module**
+**-- End of Container Insights module --**
 
 ----------------------------------------
 
@@ -186,6 +186,6 @@ kubectl get all -n aws-otel-eks
 
 Now you have the ADOT Collector sending metrics to the Amazon Managed Service for Prometheus workspace. Go to Amazon Managed Grafana and query the metrics to visualize.
 
-**End of ADOT and Amazon Managed Prometheus module**
+**-- End of ADOT and Amazon Managed Service for Prometheus module --**
 
 ---------
