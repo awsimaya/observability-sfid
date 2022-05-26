@@ -4,11 +4,15 @@
 
 #### Clone this repo using the command below
 
-`git clone https://github.com/awsimaya/observability-sfid.git`
+```
+git clone https://github.com/awsimaya/observability-sfid.git
+```
 
 #### Go to the cloned folder 
 
-`cd observability-sfid`
+```
+cd observability-sfid
+```
 
 ## Container Insights using ADOT Helm chart
 
