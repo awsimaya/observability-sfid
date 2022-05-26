@@ -32,9 +32,9 @@ Example here -
 
 ----
 
-## Using ADOT Collector to instead of the CloudWatch agent to collect metrics
+## Using ADOT Collector for Container Insights
 
-### Using helm to install adot collector 
+### Install ADOT Collector using helm
 
 #### Delete the original namespace to avoid confusion
 
@@ -46,7 +46,7 @@ Select the log groups listed below and delete them
 
 ![Log Groups](loggroups.jpg)
 
-#### Setup IRSA 
+#### Setup IRSA (IAM Roles for Service Accounts)
 
 
 The following command will create an IAM Role called `EKS-ADOT-CWCI-Helm-Chart-Role` and with a trust policy associated with a service account in the EKS cluster’s service account. After executing the command, go to IAM to explore it if you desire to do so.
