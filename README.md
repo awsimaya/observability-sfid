@@ -30,6 +30,10 @@ Example here -
 
 ![EMF Event](emf.jpg)
 
+----
+
+## Using ADOT Collector to instead of the CloudWatch agent to collect metrics
+
 ### Using helm to install adot collector 
 
 #### Delete the original namespace to avoid confusion
