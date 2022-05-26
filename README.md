@@ -38,7 +38,9 @@ Example here -
 
 #### Delete the original namespace to avoid confusion
 
-`kubectl delete ns amazon-cloudwatch`
+```
+kubectl delete ns amazon-cloudwatch
+```
 
 #### Delete existing log groups
 
@@ -137,7 +139,9 @@ CLUSTER_NAME=PetSite
 ```
 
 
-`aws eks create-addon --addon-name adot --addon-version v0.45.0-eksbuild.1 --cluster-name $CLUSTER_NAME`
+```
+aws eks create-addon --addon-name adot --addon-version v0.45.0-eksbuild.1 --cluster-name $CLUSTER_NAME
+```
 
 
 #### Verify Add-On installation
