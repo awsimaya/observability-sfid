@@ -1,3 +1,5 @@
+**These instructions are part of this workshop here - https://catalog.workshops.aws/observability/en-US/amp/ingest-metrics **
+
 # Solution Focused Immersion Day - Observability
 
 ## Prepare
